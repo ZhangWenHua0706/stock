@@ -1,0 +1,13 @@
+-
+ base:
+    index_url: https://www.eastmoney.com/
+    zcfzb_url: http://emweb.securities.eastmoney.com/PC_HSF10/NewFinanceAnalysis/zcfzbAjaxNew
+    xjllb_url: http://emweb.securities.eastmoney.com/PC_HSF10/NewFinanceAnalysis/xjllbAjaxNew
+    lrb_url: http://emweb.securities.eastmoney.com/PC_HSF10/NewFinanceAnalysis/lrbAjaxNew
+    pre_auth: Bearer
+    assert_str: 2000000
+    import_insotre_bill_file: 入库单导入.xls
+ log:
+    log_name: log_
+    log_level: info
+    log_fomat: '[%(asctime)s] %(filename)s->%(funcname)s'
